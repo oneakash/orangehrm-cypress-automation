@@ -1,0 +1,16 @@
+{
+  "name": "orangehrm-cypress-automation",
+  "version": "1.0.0",
+  "description": "End-to-end Cypress automation for OrangeHRM User Management using TypeScript and Page Object Model",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:headed": "cypress run --headed",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "cypress": "^16.3.0",
+    "typescript": "^5.9.0"
+  }
+}
