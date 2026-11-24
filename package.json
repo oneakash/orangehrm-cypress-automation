@@ -6,7 +6,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run:headed": "cypress run --headed",
+    "cy:run:headed": "cypress run --browser chrome --headed",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

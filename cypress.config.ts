@@ -5,7 +5,7 @@ export default defineConfig({
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
     viewportWidth: 1440,
     viewportHeight: 900,
-    defaultCommandTimeout: 10000,
+    defaultCommandTimeout: 15000,
     pageLoadTimeout: 60000,
     retries: {
       runMode: 1,
